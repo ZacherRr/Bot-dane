@@ -64,7 +64,7 @@ class Bot:
                 ids_admins.append(id_admin)
 
         # Считываем информацию о клиенете из базы
-        forms = '/home/Zacher/mysite/forms.csv'
+        forms = '/home/****/mysite/forms.csv'
         with open(forms, "r", newline="") as file:
             reader = csv.reader(file)
             for row in reader:
